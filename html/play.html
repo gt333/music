@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>这是个坑货</title>
+	<link href="../dist/all.min.css?v=1" rel="stylesheet" />
+</head>
+
+<body>
+	<!-- page集合的容器，里面放多个平行的.page，其他.page作为内联页面由路由控制展示 -->
+	<div class="page-group">
+		<!-- 单个page ,第一个.page默认被展示-->
+		<div class="page" id="player">
+			<!-- 标题栏 -->
+			<header class="bar bar-nav">
+				<a class="icon icon-menue  pull-left open-panel"></a>
+                 
+				<h1 class="title">
+                   后弦——下完这场雨
+                </h1>
+			</header>
+			<!-- 这里是页面内容区 -->
+			<div class="content ">
+				
+			</div>
+	    </div>
+	</div>
+	<script src="../lib/sea.js"></script>
+	<script>
+			seajs.use('{main}')
+	</script>
+</body>
+
+</html>

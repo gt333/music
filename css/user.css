@@ -1,3 +1,4 @@
+body{font-family:"Helvetica Neue",Helvetica,sans-serif }
 .panel-cover .content{background:url(../img/panel-bg.jpg) left top no-repeat;color: #5f646e;height: 100%;margin:0;padding-top: 2rem}
 #main .list-block{margin:0}
 .user-tx{margin:0;text-align: center}.user-tx img{width: 3rem;border-radius: 100%; background-color: #fff;}
@@ -16,3 +17,5 @@
 .rank-music-list .item-link:nth-child(1) .ol{background: #E80101}
 .rank-music-list .item-link:nth-child(2) .ol{background: #FF7201}
 .rank-music-list .item-link:nth-child(3) .ol{background: #F8B301}
+/*play*/
+#player{background: url(../img/abj.jpg) center bottom no-repeat;background-size: 100% 100%}

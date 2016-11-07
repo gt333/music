@@ -12,7 +12,7 @@ gulp.task('combo', function(){
 	    .pipe(seajsCombo())
 	    .pipe(uglify())
 	    .pipe(concat('main.min.js'))
-	    .pipe(gulp.dest('./'))
+	    .pipe(gulp.dest('./dist/'))
 	    .pipe(livereload())
 }); 
 
@@ -20,7 +20,7 @@ gulp.task('minicss', function(){
     gulp.src(['./css/*.css'])
         .pipe(concat('all.min.css'))
         .pipe(minicss())
-        .pipe(gulp.dest('./css/'))
+        .pipe(gulp.dest('./dist/'))
         .pipe(livereload())
 });
 
