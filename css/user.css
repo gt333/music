@@ -19,3 +19,5 @@ body{font-family:"Helvetica Neue",Helvetica,sans-serif }
 .rank-music-list .item-link:nth-child(3) .ol{background: #F8B301}
 /*play*/
 #player{background: url(../img/abj.jpg) center bottom no-repeat;background-size: 100% 100%}
+.players .player-pointer{background: url(../img/aag.png) center no-repeat;background-size: 100% 100%;width: 4rem;height:6rem;position: absolute;left: 50%;margin-left: -0.71rem;top: -0.3rem;z-index: 2;transform:rotate(7deg);transform-origin: 0.7rem 0.7rem;transform: rotate(10deg);}
+.players .player-radiu{background: url(../img/a97.png) center no-repeat;background-size:100% 100%;position: absolute;width: 12rem;height:12rem;left:50%;margin-left:-6rem;top:5em;z-index: 1 }
