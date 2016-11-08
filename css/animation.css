@@ -1,0 +1,26 @@
+.players .active .player-pointer{
+    transform-origin:0.7rem 0.7rem;
+    transform:rotate(12deg);
+    transition:transform 0.8s linear;
+}
+.players .active .player-radius{
+    transform-origin:50% 50%;
+    animation: totates 3s 0.8s linear infinite forwards;
+}
+@keyframes totates{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(90deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    75%{
+        transform:rotate(270deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
