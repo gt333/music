@@ -1,4 +1,7 @@
 body{font-family:"Helvetica Neue",Helvetica,sans-serif }
+.f-2rem{font-size: 2rem}
+.f-25rem{font-size: 2.5rem}
+.f-3rem{font-size: 3rem}
 .panel-cover .content{background:url(../img/panel-bg.jpg) left top no-repeat;color: #5f646e;height: 100%;margin:0;padding-top: 2rem}
 #main .list-block{margin:0}
 .user-tx{margin:0;text-align: center}.user-tx img{width: 3rem;border-radius: 100%; background-color: #fff;}
@@ -19,5 +22,14 @@ body{font-family:"Helvetica Neue",Helvetica,sans-serif }
 .rank-music-list .item-link:nth-child(3) .ol{background: #F8B301}
 /*play*/
 #player{background: url(../img/abj.jpg) center bottom no-repeat;background-size: 100% 100%}
-.players .player-pointer{background: url(../img/aag.png) center no-repeat;background-size: 100% 100%;width: 4rem;height:6rem;position: absolute;left: 50%;margin-left: -0.71rem;top: -0.3rem;z-index: 2;transform:rotate(7deg);transform-origin: 0.7rem 0.7rem;transform: rotate(10deg);}
-.players .player-radiu{background: url(../img/a97.png) center no-repeat;background-size:100% 100%;position: absolute;width: 12rem;height:12rem;left:50%;margin-left:-6rem;top:5em;z-index: 1 }
+.players .disk{position: relative;min-height: 14.5rem}
+.players .player-pointer{position: absolute;z-index:2;background: url(../img/aag.png) center no-repeat;background-size:100% 100%;width:4rem;height:6rem;top:-.3rem;left: 50%;margin-left:-0.72rem;}
+.players .player-radius{position:absolute;z-index:1;text-align:center;width: 10rem;height:10rem;left:50%;margin-left:-5rem;top:4.8rem;line-height: 10rem}
+.players .player-radius .player-circle{background: url(../img/a9x.png) center no-repeat;background-size:100% 100%;width: 100%;height: 100%}
+.players .player-radius  img{position: absolute;z-index: -1;width:8rem;border-radius: 100%;top:1rem;left:1rem;}
+.players .fun-modal{text-align: center;margin-top: 2rem}
+.players .fun-modal .icon{font-size:2rem;line-height: 2rem;text-align: center;color: #fff;}
+.players .fun-modal a+ a .icon{margin-left: 2rem}
+.players .play-fun{position:absolute;bottom:0;text-align: center;display:flex;width: 100%}
+.players .play-fun a{display: block;width: 20%;vertical-align: middle;color: #fff}
+.players .play-fun .icon-menue{font-size: 1.5rem}
