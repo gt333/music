@@ -2,10 +2,15 @@
     transform-origin:0.7rem 0.7rem;
     transform:rotate(12deg);
     transition:transform 0.8s linear;
+    -webkit-transform-origin:0.7rem 0.7rem;
+     -webkit-transform:rotate(12deg);
+    -webkit-transition:transform 0.8s linear;
 }
 .players .active .player-radius{
+     -webkit-transform-origin:50% 50%;
     transform-origin:50% 50%;
     animation: totates 3s 0.8s linear infinite forwards;
+     -webkit-animation: totates 3s 0.8s linear infinite forwards;
 }
 @keyframes totates{
     0%{
@@ -22,5 +27,22 @@
     }
     100%{
         transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes totates{
+    0%{
+        -webkit-transform:rotate(0deg);
+    }
+    25%{
+        -webkit-transform:rotate(90deg);
+    }
+    50%{
+        -webkit-transform:rotate(180deg);
+    }
+    75%{
+        -webkit-transform:rotate(270deg);
+    }
+    100%{
+        -webkit-transform:rotate(360deg);
     }
 }
